@@ -49,8 +49,8 @@
                                           VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"
                                           Padding="{TemplateBinding Padding}" />
                         <Grid Grid.Column="1" RowDefinitions="*,*" IsVisible="{TemplateBinding ShowButtonSpinner}">
-                            <RepeatButton Grid.Row="0" Name="PART_IncreaseButton" />
-                            <RepeatButton Grid.Row="1" Name="PART_DecreaseButton" />
+                            <RepeatButton Grid.Row="0" Name="PART_IncreaseButton" Background="Transparent"/>
+                            <RepeatButton Grid.Row="1" Name="PART_DecreaseButton" Background="Transparent"/>
                         </Grid>
                     </Grid>
                 </Border>
@@ -69,8 +69,8 @@
                         VerticalAlignment="{TemplateBinding VerticalAlignment}">
                     <Grid ColumnDefinitions="Auto,*">
                         <Grid Grid.Column="0" RowDefinitions="*,*" IsVisible="{TemplateBinding ShowButtonSpinner}">
-                            <RepeatButton Grid.Row="0" Name="PART_IncreaseButton" />
-                            <RepeatButton Grid.Row="1" Name="PART_DecreaseButton" />
+                            <RepeatButton Grid.Row="0" Name="PART_IncreaseButton" Background="Transparent"/>
+                            <RepeatButton Grid.Row="1" Name="PART_DecreaseButton" Background="Transparent"/>
                         </Grid>
                         <ContentPresenter Name="PART_ContentPresenter" Grid.Column="1"
                                           ContentTemplate="{TemplateBinding ContentTemplate}"

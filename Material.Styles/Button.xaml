@@ -4,7 +4,7 @@
     xmlns:assists="clr-namespace:Material.Styles.Assists"
     xmlns:ripple="clr-namespace:Material.Ripple;assembly=Material.Ripple">
 
-    <Style Selector="Button,ToggleButton">
+    <Style Selector="Button,ToggleButton,RepeatButton">
         <Setter Property="HorizontalContentAlignment" Value="Center" />
         <Setter Property="VerticalContentAlignment" Value="Center" />
         <Setter Property="Padding" Value="4" />
@@ -42,13 +42,14 @@
         </Setter>
     </Style>
 
-    <Style Selector="Button:disabled:not(.no-material),ToggleButton:disabled:not(.no-material)">
+    <Style Selector="Button:disabled:not(.no-material),ToggleButton:disabled:not(.no-material),RepeatButton:disabled:not(.no-material)">
         <Setter Property="Opacity" Value="0.23" />
     </Style>
 
     <Style
         Selector="Button:pointerover:not(.no-material) /template/ Border#buttonBorder,
-    ToggleButton:pointerover:not(.no-material) /template/ Border#buttonBorder">
+    ToggleButton:pointerover:not(.no-material) /template/ Border#buttonBorder,
+    RepeatButton:pointerover:not(.no-material) /template/ Border#buttonBorder">
         <Setter Property="assists:ShadowAssist.Darken" Value="True" />
     </Style>
 </Styles>

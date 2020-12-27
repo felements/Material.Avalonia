@@ -42,7 +42,6 @@
     <StyleInclude Source="avares://Material.Styles/PopupRoot.xaml" />
     <StyleInclude Source="avares://Material.Styles/ProgressBar.xaml" />
     <StyleInclude Source="avares://Material.Styles/RadioButton.xaml" />
-    <StyleInclude Source="avares://Material.Styles/RepeatButton.xaml" />
     <StyleInclude Source="avares://Material.Styles/ScrollBar.xaml" />
     <StyleInclude Source="avares://Material.Styles/ScrollViewer.xaml" />
     <StyleInclude Source="avares://Material.Styles/Separator.xaml" />
