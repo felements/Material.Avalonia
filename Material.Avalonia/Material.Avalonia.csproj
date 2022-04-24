@@ -10,7 +10,7 @@
         <PackageLicenseUrl>https://raw.githubusercontent.com/AvaloniaCommunity/Material.Avalonia/master/LICENSE</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/AvaloniaCommunity/Material.Avalonia</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
-        <LangVersion>8</LangVersion>
+        <LangVersion>10</LangVersion>
         <PackageReleaseNotes>
 - Removed Material.Icons dependency (must be installed separately from https://github.com/AvaloniaUtils/Material.Icons.Avalonia) #127
 - Rework styles (details https://github.com/AvaloniaCommunity/Material.Avalonia/wiki/Advanced-Theming#migrating-25---30)

@@ -11,6 +11,7 @@
         <RepositoryType>git</RepositoryType>
         <Description>Main styles library of Material.Avalonia.</Description>
         <Nullable>enable</Nullable>
+        <PackageVersion>3.0.0</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>

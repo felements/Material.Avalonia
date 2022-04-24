@@ -177,7 +177,7 @@ namespace Material.Styles
             Dispatcher.UIThread.Post(delegate
             {
                 host.SnackbarModels.Remove(model);
-            }, priority ?? DispatcherPriority.Normal);
+            }, priority ?? DispatcherPriority.Normal );
         }
 
         private static void OnSnackbarDurationExpired(SnackbarHost host, SnackbarModel model)

@@ -9,7 +9,8 @@
         <Description>DataGrid styles library of Material.Avalonia.</Description>
         <PackageProjectUrl>https://github.com/AvaloniaUtils/material.avalonia</PackageProjectUrl>
         <RepositoryUrl>https://github.com/AvaloniaUtils/material.avalonia</RepositoryUrl>
-        <RepositoryType>git</RepositoryType> 
+        <RepositoryType>git</RepositoryType>
+        <PackageVersion>3.0.0</PackageVersion> 
     </PropertyGroup>
     <ItemGroup>
         <AvaloniaResource Include="**\*.xaml">
